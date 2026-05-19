@@ -50,8 +50,8 @@ h1, h2, h3, h4, p {
 
 button {
     margin: 20px auto;
-    width: 400px;
-    height: 400px;
+    width: min(400px, 85vw);
+    height: min(400px, 85vw);
     border: none;
     border-radius: 15px;
     background-image: url("images/gift-picture.png");
@@ -73,5 +73,9 @@ a {
 @media only screen and (max-width: 600px) {
   body {
     text-align: center;
+  }
+
+  #footer {
+    width: 85vw;
   }
 }
