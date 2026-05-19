@@ -47,35 +47,18 @@ h1, h2, h3, h4, p {
 }
 
 
-.gift-img {
+
+button {
     margin: 20px auto;
-    max-width: 400px;
+    width: 400px;
     height: 400px;
-    border: 6px solid white;
-    border-radius: 10px;
+    border: none;
+    border-radius: 15px;
     background-image: url("images/gift-picture.png");
     background-size: cover;
+    cursor: pointer;
 }
 
-#gift-img-happy:hover {
-    background-image: url("images/happycat.gif");
-}
-
-#gift-img-hot:hover {
-    background-image: url("images/kobe.gif");
-}
-
-#gift-img-genius:hover {
-    background-image: url("images/pony.gif");
-}
-
-#gift-img-badass:hover {
-    background-image: url("images/neo.gif");
-}
-
-#gift-img-cheers:hover {
-    background-image: url("images/cat-bday.gif");
-}
 
 #footer {
     font-style: italic;
@@ -85,4 +68,10 @@ h1, h2, h3, h4, p {
 
 a {
     color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    text-align: center;
+  }
 }
